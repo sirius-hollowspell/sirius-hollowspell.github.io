@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+    <!-- so meta -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5" />
+    <meta name="description" content="Thanks for visiting Hollowspell.net! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Markdown Cheatsheet">
+<meta property="og:url" content="https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/">
+<meta property="og:site_name" content="Hollowspell Network">
+<meta property="og:description" content="Thanks for visiting Hollowspell.net! This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/dummyimg.png">
+<meta property="article:published_time" content="2021-11-01T17:29:00.000Z">
+<meta property="article:modified_time" content="2021-12-13T22:34:44.295Z">
+<meta property="article:author" content="Sirius Hollowspell">
+<meta property="article:tag" content="markdown">
+<meta property="article:tag" content="cheatsheet">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/dummyimg.png">
+    
+    
+      
+        
+          <link rel="shortcut icon" href="/favicon.ico">
+        
+      
+      
+        
+          <link rel="icon" type="image/png" href="/favicon-192x192.png" sizes="192x192">
+        
+      
+      
+        
+          <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        
+      
+    
+    <!-- title -->
+    <title>Markdown Cheatsheet</title>
+    <!-- styles -->
+    
+<link rel="stylesheet" href="/css/style.css">
+
+    <!-- persian styles -->
+    
+    <!-- rss -->
+    
+    
+	<!-- mathjax -->
+	
+<meta name="generator" content="Hexo 5.4.0"></head>
+
+<body class="max-width mx-auto px3 ltr">
+    
+      <div id="header-post">
+  <a id="menu-icon" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="menu-icon-tablet" href="#" aria-label="Menu"><i class="fas fa-bars fa-lg"></i></a>
+  <a id="top-icon-tablet" href="#" aria-label="Top" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');" style="display:none;"><i class="fas fa-chevron-up fa-lg"></i></a>
+  <span id="menu">
+    <span id="nav">
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Archive</a></li><!--
+     --><!--
+       --><li><a href="/projects/">Projects</a></li><!--
+     --><!--
+       --><li><a href="/games/">Games</a></li><!--
+     -->
+      </ul>
+    </span>
+    <br/>
+    <span id="actions">
+      <ul>
+        
+        <li><a class="icon" aria-label="Previous post" href="/2021/11/20/20211120-thanksgiving-cruise-day-1/"><i class="fas fa-chevron-left" aria-hidden="true" onmouseover="$('#i-prev').toggle();" onmouseout="$('#i-prev').toggle();"></i></a></li>
+        
+        
+        <li><a class="icon" aria-label="Back to top" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up" aria-hidden="true" onmouseover="$('#i-top').toggle();" onmouseout="$('#i-top').toggle();"></i></a></li>
+        <li><a class="icon" aria-label="Share post" href="#"><i class="fas fa-share-alt" aria-hidden="true" onmouseover="$('#i-share').toggle();" onmouseout="$('#i-share').toggle();" onclick="$('#share').toggle();return false;"></i></a></li>
+      </ul>
+      <span id="i-prev" class="info" style="display:none;">Previous post</span>
+      <span id="i-next" class="info" style="display:none;">Next post</span>
+      <span id="i-top" class="info" style="display:none;">Back to top</span>
+      <span id="i-share" class="info" style="display:none;">Share post</span>
+    </span>
+    <br/>
+    <div id="share" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/"><i class="fab fa-facebook " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&text=Markdown Cheatsheet"><i class="fab fa-twitter " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-linkedin " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&is_video=false&description=Markdown Cheatsheet"><i class="fab fa-pinterest " aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Markdown Cheatsheet&body=Check out this article: https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/"><i class="fas fa-envelope " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-get-pocket " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-reddit " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-stumbleupon " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-digg " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&name=Markdown Cheatsheet&description="><i class="fab fa-tumblr " aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&t=Markdown Cheatsheet"><i class="fab fa-hacker-news " aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+    <div id="toc">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Basic-Syntax"><span class="toc-number">1.</span> <span class="toc-text">Basic Syntax</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Heading"><span class="toc-number">1.1.</span> <span class="toc-text">Heading</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#H1"><span class="toc-number"></span> <span class="toc-text">H1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#H2"><span class="toc-number">1.</span> <span class="toc-text">H2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#H3"><span class="toc-number">1.1.</span> <span class="toc-text">H3</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Bold"><span class="toc-number">1.2.</span> <span class="toc-text">Bold</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Italic"><span class="toc-number">1.3.</span> <span class="toc-text">Italic</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote"><span class="toc-number">1.4.</span> <span class="toc-text">Blockquote</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ordered-List"><span class="toc-number">1.5.</span> <span class="toc-text">Ordered List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unordered-List"><span class="toc-number">1.6.</span> <span class="toc-text">Unordered List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code"><span class="toc-number">1.7.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Horizontal-Rule"><span class="toc-number">1.8.</span> <span class="toc-text">Horizontal Rule</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Link"><span class="toc-number">1.9.</span> <span class="toc-text">Link</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Image"><span class="toc-number">1.10.</span> <span class="toc-text">Image</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Extended-Syntax"><span class="toc-number">2.</span> <span class="toc-text">Extended Syntax</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Table"><span class="toc-number">2.1.</span> <span class="toc-text">Table</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Fenced-Code-Block"><span class="toc-number">2.2.</span> <span class="toc-text">Fenced Code Block</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Footnote"><span class="toc-number">2.3.</span> <span class="toc-text">Footnote</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Definition-List"><span class="toc-number">2.4.</span> <span class="toc-text">Definition List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Strikethrough"><span class="toc-number">2.5.</span> <span class="toc-text">Strikethrough</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Task-List"><span class="toc-number">2.6.</span> <span class="toc-text">Task List</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number"></span> <span class="toc-text">Raw Code</span></a>
+    </div>
+  </span>
+</div>
+
+    
+    <div class="content index py4">
+        
+        <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    
+    <h1 class="posttitle" itemprop="name headline">
+        Markdown Cheatsheet
+    </h1>
+
+
+
+    <div class="meta">
+      <span class="author" itemprop="author" itemscope itemtype="http://schema.org/Person">
+        <span itemprop="name">Sirius Hollowspell</span>
+      </span>
+      
+    <div class="postdate">
+      
+        <time datetime="2021-11-01T17:29:00.000Z" itemprop="datePublished">2021-11-01</time>
+        
+      
+    </div>
+
+
+      
+
+      
+    <div class="article-tag">
+        <i class="fas fa-tag"></i>
+        <a class="tag-link-link" href="/tags/cheatsheet/" rel="tag">cheatsheet</a>, <a class="tag-link-link" href="/tags/markdown/" rel="tag">markdown</a>
+    </div>
+
+
+    </div>
+  </header>
+  
+
+  <div class="content" itemprop="articleBody">
+    <p>Thanks for visiting <a target="_blank" rel="noopener" href="https://www.hollowspell.net/">Hollowspell.net</a>!</p>
+<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <a target="_blank" rel="noopener" href="https://www.markdownguide.org/basic-syntax">basic syntax</a> and <a target="_blank" rel="noopener" href="https://www.markdownguide.org/extended-syntax">extended syntax</a>.</p>
+<h2 id="Basic-Syntax"><a href="#Basic-Syntax" class="headerlink" title="Basic Syntax"></a>Basic Syntax</h2><p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
+<h3 id="Heading"><a href="#Heading" class="headerlink" title="Heading"></a>Heading</h3><h1 id="H1"><a href="#H1" class="headerlink" title="H1"></a>H1</h1><h2 id="H2"><a href="#H2" class="headerlink" title="H2"></a>H2</h2><h3 id="H3"><a href="#H3" class="headerlink" title="H3"></a>H3</h3><h3 id="Bold"><a href="#Bold" class="headerlink" title="Bold"></a>Bold</h3><p><strong>bold text</strong></p>
+<h3 id="Italic"><a href="#Italic" class="headerlink" title="Italic"></a>Italic</h3><p><em>italicized text</em></p>
+<h3 id="Blockquote"><a href="#Blockquote" class="headerlink" title="Blockquote"></a>Blockquote</h3><blockquote>
+<p>blockquote</p>
+<blockquote>
+<p>nested blockquote</p>
+</blockquote>
+</blockquote>
+<h3 id="Ordered-List"><a href="#Ordered-List" class="headerlink" title="Ordered List"></a>Ordered List</h3><ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="Unordered-List"><a href="#Unordered-List" class="headerlink" title="Unordered List"></a>Unordered List</h3><ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+<h3 id="Code"><a href="#Code" class="headerlink" title="Code"></a>Code</h3><p><code>code</code></p>
+<h3 id="Horizontal-Rule"><a href="#Horizontal-Rule" class="headerlink" title="Horizontal Rule"></a>Horizontal Rule</h3><hr>
+<h3 id="Link"><a href="#Link" class="headerlink" title="Link"></a>Link</h3><p><a target="_blank" rel="noopener" href="https://www.example.com/">Example Link</a></p>
+<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p><img src="dummyimg.png" alt="alt text"></p>
+<h2 id="Extended-Syntax"><a href="#Extended-Syntax" class="headerlink" title="Extended Syntax"></a>Extended Syntax</h2><p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+<h3 id="Table"><a href="#Table" class="headerlink" title="Table"></a>Table</h3><table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody></table>
+<h3 id="Fenced-Code-Block"><a href="#Fenced-Code-Block" class="headerlink" title="Fenced Code Block"></a>Fenced Code Block</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">&#123;</span><br><span class="line">  &quot;firstName&quot;: &quot;John&quot;,</span><br><span class="line">  &quot;lastName&quot;: &quot;Doe&quot;,</span><br><span class="line">  &quot;age&quot;: 25</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote"></a>Footnote</h3><p>Here’s a sentence with a footnote. [^1]</p>
+<p>[^1]: This is the footnote.</p>
+<h3 id="Definition-List"><a href="#Definition-List" class="headerlink" title="Definition List"></a>Definition List</h3><dl><dt>term</dt><dd>definition</dd></dl><h3 id="Strikethrough"><a href="#Strikethrough" class="headerlink" title="Strikethrough"></a>Strikethrough</h3><p><del>The world is flat.</del></p>
+<h3 id="Task-List"><a href="#Task-List" class="headerlink" title="Task List"></a>Task List</h3><ul>
+<li><input checked="" disabled="" type="checkbox"> Lorem</li>
+<li><input disabled="" type="checkbox"> Ipsum</li>
+<li><input disabled="" type="checkbox"> Dolor</li>
+<li><input checked="" disabled="" type="checkbox"> Sit</li>
+<li><input checked="" disabled="" type="checkbox"> Amet</li>
+</ul>
+<p><a href="https://sirius-hollowspell.github.io/2021/11/01/markdown-cheatsheet/markdown-cheatsheet-copy.md" target="_blank" download="markdown-cheatsheet.md" style="text-align: center"><h1>Raw Code</h1></a></p>
+
+  </div>
+</article>
+
+
+
+        
+          <div id="footer-post-container">
+  <div id="footer-post">
+
+    <div id="nav-footer" style="display: none">
+      <ul>
+         
+          <li><a href="/">Home</a></li>
+         
+          <li><a href="/about/">About</a></li>
+         
+          <li><a href="/archives/">Archive</a></li>
+         
+          <li><a href="/projects/">Projects</a></li>
+         
+          <li><a href="/games/">Games</a></li>
+        
+      </ul>
+    </div>
+
+    <div id="toc-footer" style="display: none">
+      <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#Basic-Syntax"><span class="toc-number">1.</span> <span class="toc-text">Basic Syntax</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Heading"><span class="toc-number">1.1.</span> <span class="toc-text">Heading</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#H1"><span class="toc-number"></span> <span class="toc-text">H1</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#H2"><span class="toc-number">1.</span> <span class="toc-text">H2</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#H3"><span class="toc-number">1.1.</span> <span class="toc-text">H3</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Bold"><span class="toc-number">1.2.</span> <span class="toc-text">Bold</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Italic"><span class="toc-number">1.3.</span> <span class="toc-text">Italic</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Blockquote"><span class="toc-number">1.4.</span> <span class="toc-text">Blockquote</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Ordered-List"><span class="toc-number">1.5.</span> <span class="toc-text">Ordered List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Unordered-List"><span class="toc-number">1.6.</span> <span class="toc-text">Unordered List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Code"><span class="toc-number">1.7.</span> <span class="toc-text">Code</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Horizontal-Rule"><span class="toc-number">1.8.</span> <span class="toc-text">Horizontal Rule</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Link"><span class="toc-number">1.9.</span> <span class="toc-text">Link</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Image"><span class="toc-number">1.10.</span> <span class="toc-text">Image</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Extended-Syntax"><span class="toc-number">2.</span> <span class="toc-text">Extended Syntax</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#Table"><span class="toc-number">2.1.</span> <span class="toc-text">Table</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Fenced-Code-Block"><span class="toc-number">2.2.</span> <span class="toc-text">Fenced Code Block</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Footnote"><span class="toc-number">2.3.</span> <span class="toc-text">Footnote</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Definition-List"><span class="toc-number">2.4.</span> <span class="toc-text">Definition List</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Strikethrough"><span class="toc-number">2.5.</span> <span class="toc-text">Strikethrough</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#Task-List"><span class="toc-number">2.6.</span> <span class="toc-text">Task List</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link"><span class="toc-number"></span> <span class="toc-text">Raw Code</span></a>
+    </div>
+
+    <div id="share-footer" style="display: none">
+      <ul>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.facebook.com/sharer.php?u=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/"><i class="fab fa-facebook fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://twitter.com/share?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&text=Markdown Cheatsheet"><i class="fab fa-twitter fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.linkedin.com/shareArticle?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://pinterest.com/pin/create/bookmarklet/?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&is_video=false&description=Markdown Cheatsheet"><i class="fab fa-pinterest fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" href="mailto:?subject=Markdown Cheatsheet&body=Check out this article: https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/"><i class="fas fa-envelope fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://getpocket.com/save?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-get-pocket fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://reddit.com/submit?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-reddit fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.stumbleupon.com/submit?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-stumbleupon fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://digg.com/submit?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&title=Markdown Cheatsheet"><i class="fab fa-digg fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="http://www.tumblr.com/share/link?url=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&name=Markdown Cheatsheet&description="><i class="fab fa-tumblr fa-lg" aria-hidden="true"></i></a></li>
+  <li><a class="icon" target="_blank" rel="noopener" href="https://news.ycombinator.com/submitlink?u=https://sirius-hollowspell.github.io/2021/11/01/20211101-markdown-cheatsheet/&t=Markdown Cheatsheet"><i class="fab fa-hacker-news fa-lg" aria-hidden="true"></i></a></li>
+</ul>
+
+    </div>
+
+    <div id="actions-footer">
+        <a id="menu" class="icon" href="#" onclick="$('#nav-footer').toggle();return false;"><i class="fas fa-bars fa-lg" aria-hidden="true"></i> Menu</a>
+        <a id="toc" class="icon" href="#" onclick="$('#toc-footer').toggle();return false;"><i class="fas fa-list fa-lg" aria-hidden="true"></i> TOC</a>
+        <a id="share" class="icon" href="#" onclick="$('#share-footer').toggle();return false;"><i class="fas fa-share-alt fa-lg" aria-hidden="true"></i> Share</a>
+        <a id="top" style="display:none" class="icon" href="#" onclick="$('html, body').animate({ scrollTop: 0 }, 'fast');"><i class="fas fa-chevron-up fa-lg" aria-hidden="true"></i> Top</a>
+    </div>
+
+  </div>
+</div>
+
+        
+        <footer id="footer">
+  <div class="footer-left">
+    Copyright &copy;
+    
+    
+    2021
+    Sirius Hollowspell
+  </div>
+  <div class="footer-right">
+    <nav>
+      <ul>
+        <!--
+       --><li><a href="/">Home</a></li><!--
+     --><!--
+       --><li><a href="/about/">About</a></li><!--
+     --><!--
+       --><li><a href="/archives/">Archive</a></li><!--
+     --><!--
+       --><li><a href="/projects/">Projects</a></li><!--
+     --><!--
+       --><li><a href="/games/">Games</a></li><!--
+     -->
+      </ul>
+    </nav>
+  </div>
+</footer>
+
+    </div>
+    <!-- styles -->
+
+
+
+  <link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" crossorigin="anonymous" onload="this.onload=null;this.rel='stylesheet'"/>
+
+
+    <!-- jquery -->
+ 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" crossorigin="anonymous"></script> 
+
+
+
+
+<!-- clipboard -->
+
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/2.0.7/clipboard.min.js" crossorigin="anonymous"></script> 
+  
+  <script type="text/javascript">
+  $(function() {
+    // copy-btn HTML
+    var btn = "<span class=\"btn-copy tooltipped tooltipped-sw\" aria-label=\"Copy to clipboard!\">";
+    btn += '<i class="far fa-clone"></i>';
+    btn += '</span>'; 
+    // mount it!
+    $(".highlight table").before(btn);
+    var clip = new ClipboardJS('.btn-copy', {
+      text: function(trigger) {
+        return Array.from(trigger.nextElementSibling.querySelectorAll('.code')).reduce((str,it)=>str+it.innerText+'\n','')
+      }
+    });
+    clip.on('success', function(e) {
+      e.trigger.setAttribute('aria-label', "Copied!");
+      e.clearSelection();
+    })
+  })
+  </script>
+
+
+<script src="/js/main.js"></script>
+
+<!-- search -->
+
+<!-- Google Analytics -->
+
+<!-- Baidu Analytics -->
+
+<!-- Cloudflare Analytics -->
+
+<!-- Umami Analytics -->
+
+<!-- Disqus Comments -->
+
+<!-- utterances Comments -->
+
+</body>
+</html>
